@@ -1,0 +1,32 @@
+* {
+    color: #d1d1d1;
+}
+
+.main {
+    margin: 0;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    min-height: 100vh;
+}
+
+
+.grid {
+    display: grid;
+}
+
+.cols-12 {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.block {
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
